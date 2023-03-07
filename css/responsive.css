@@ -1,0 +1,112 @@
+@media (max-width: 1367px) {
+    .conteiner {
+        max-width: 100rem;
+    }
+}
+
+@media (max-width: 1025px) {
+    .conteiner {
+        max-width: 85rem;
+    }
+    .titulo {
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+    .status {
+        margin-top: 4rem;
+    }
+    .status h2 {
+        font-size: 1.8rem;
+    }
+    .status p {
+        letter-spacing: 0.1rem;
+    }
+    .modelos {
+        margin-left: 4.5rem;
+    }
+    .duvidas {
+        margin-left: 4.5rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .conteiner {
+        max-width: 65rem;
+    }
+    .titulo {
+        font-size: 2.5rem;
+        margin: 0 2.5rem;
+        margin-top: 2.5rem;
+    }
+    .descricao {
+        font-size: 1.5rem;
+        margin: 0 2.5rem;
+        margin-top: 1.5rem;
+        padding-right: 0;
+        line-height: 1.5rem;
+    }
+    .status {
+        margin-top: 2rem;
+    }
+    .status h2 {
+        font-size: 1.6rem;
+    }
+    .status p {
+        font-size: 1.1rem;
+    }
+    .empresas {
+        margin-left: 2.5rem;
+    }
+    .modelos {
+        margin-left: 2.5rem;
+    }
+    .duvidas {
+        margin-left: 2.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .imagem img {
+        border-radius: 1rem 1rem 0 0;
+    }
+    .imagem::after {
+        border-radius: 1rem 1rem 0 0;
+    }
+    .conteiner {
+        margin: 0 2rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .titulo {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .descricao {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .status {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+    }
+    .status h2 {
+        font-size: 2rem;
+    }
+    .status p {
+        font-size: 1.2rem;
+    }
+    .empresas {
+        margin: 2rem 0 0;
+    }
+    .modelos {
+        margin: 2rem 0 0;
+    }
+    .duvidas {
+        margin: 2rem 0;
+    }
+}

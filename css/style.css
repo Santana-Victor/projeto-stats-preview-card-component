@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #090b1a;
+}
+.conteiner {
+    margin: 12rem auto;
+    background-color: #1b1938;
+    max-width: 120rem;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.titulo {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 0 5rem;
+    margin-top: 7rem;
+    color: #ffffff;
+}
+.titulo span {
+    color: #aa5cdb;
+}
+.descricao {
+    font-size: 1.5rem;
+    margin: 0 5rem;
+    margin-top: 2.5rem;
+    padding-right: 3rem;
+    line-height: 2.5rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+.status {
+    display: flex;
+    margin-top: 7rem;
+}
+.status h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+.empresas {
+    margin-left: 5rem;
+}
+.modelos {
+    margin-left: 5rem;
+}
+.duvidas {
+    margin-left: 5rem;
+}
+.status p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+    text-transform: UpperCase;
+    letter-spacing: 0.2rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+.imagem img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 1rem 1rem 0;
+    object-fit: cover;
+}
+.imagem {
+    position: relative;
+}
+.imagem::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(170, 92, 219, 0.5);
+    border-radius: 0 1rem 1rem 0;
+}
